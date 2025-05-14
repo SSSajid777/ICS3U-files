@@ -25,3 +25,4 @@ print("Grade: "+student1.grade)
 print("Classes:")
 print(student1.classes)
 
+student1.add_avg_final_grade(average)

@@ -27,7 +27,17 @@ class Student():   #This is my student class for ICS3U1
         else:
            print("Class does not exist.")
 
-    
+    #Calculate avg
+
+    def avg_final_grade(self):
+       total=0
+       for grade in self.classes.values():
+          total+=grade
+
+          average=total/len(self.classes)
+          
+
+        
 
 
     
