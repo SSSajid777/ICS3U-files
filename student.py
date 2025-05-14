@@ -23,9 +23,11 @@ class Student():   #This is my student class for ICS3U1
     def add_final_grade(self, class_name, final_grade):
         #Adds a final value to the classes dictionary
         if class_name in self.classes:
-         self.classes[class_name]=50
+         self.classes[class_name]= final_grade   
         else:
            print("Class does not exist.")
+
+    
 
 
     
