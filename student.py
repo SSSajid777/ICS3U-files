@@ -31,10 +31,14 @@ class Student():   #This is my student class for ICS3U1
 
     def avg_final_grade(self):
        total=0
+       num_classes=0
        for grade in self.classes.values():
           total+=grade
+          num_classes+=1
 
-          average=total/len(self.classes)
+       self.average=total/num_classes
+
+          
           
 
         
