@@ -35,8 +35,9 @@ class Student():   #This is my student class for ICS3U1
        for grade in self.classes.values():
           total+=grade
           num_classes+=1
-
-       self.average=total/num_classes
+        
+       if count >0:
+          self.average=total/num_classes
 
           
           
