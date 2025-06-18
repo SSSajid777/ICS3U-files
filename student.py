@@ -23,26 +23,9 @@ class Student():   #This is my student class for ICS3U1
     def add_final_grade(self, class_name, final_grade):
         #Adds a final value to the classes dictionary
         if class_name in self.classes:
-         self.classes[class_name]= final_grade   
+         self.classes[class_name]=final_grade
         else:
            print("Class does not exist.")
-
-    #Calculate avg
-
-    def avg_final_grade(self):
-       total=0
-       num_classes=0
-       for grade in self.classes.values():
-          total+=grade
-          num_classes+=1
-        
-       if num_classes >0:
-          self.average=total/num_classes
-
-          
-          
-
-        
 
 
     
